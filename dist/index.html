@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>هوشنگ پنل</title>
+  </head>
+  <body
+    dir="rtl"
+    class="font-body bg-gray-300 rounded-2xl h-screen overflow-hidden relative"
+  >
+    <div class="flex items-start justify-between">
+      <!-- nav -->
+      <div class="h-screen hidden lg:block mt-4 mr-4 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="w-full flex justify-center">
+            <div
+              class="flex items-center justify-center w-16 h-16 rounded-full border-blue-500 border-2 text-lg mt-2 overflow-hidden"
+            >
+              <svg
+                fill="#000000"
+                height="800px"
+                width="800px"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 431.604 431.604"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M389.481,233.423H327.04c5.93-11.57,8.867-25.613,8.867-42.268c0-77.316-63.773-140.218-142.162-140.218
+             c-36.268,0-70.191,13.172-96.496,37.26c-8.119-5.291-17.798-8.379-28.19-8.379c-28.555,0-51.786,23.231-51.786,51.787
+             c0,11.137,3.591,21.861,10.079,30.676C10.488,178.752,0,201.725,0,227.105c0,15.821,4.049,27.522,12.379,35.773
+             c14.779,14.638,38.832,14.409,66.684,14.141c7.569-0.072,54.375-0.244,63.189-1.774c16.319,1.478,34.363,1.697,51.493,1.697
+             c36.471,0,71.354-0.895,97.295-11.694c7.648-3.184,14.296-7.12,19.966-11.824h78.475c12.198,0,22.123,9.925,22.123,22.124
+             c0,12.199-9.925,22.124-22.123,22.124H140.494c-22.632,0-41.247,18.411-41.496,41.042c-0.123,11.17,4.136,21.696,11.992,29.639
+             c7.855,7.942,18.333,12.316,29.504,12.316h146.671c5.522,0,10-4.477,10-10s-4.478-10-10-10H140.494
+             c-5.787,0-11.215-2.266-15.285-6.38c-4.07-4.115-6.276-9.567-6.212-15.354c0.129-11.724,9.772-21.262,21.497-21.262h248.988
+             c23.227,0,42.123-18.896,42.123-42.124S412.708,233.423,389.481,233.423z M37.273,131.605c0-17.527,14.259-31.787,31.786-31.787
+             c17.527,0,31.787,14.259,31.787,31.787c0,1.816-0.159,3.605-0.457,5.364c-3.22-0.345-6.468-0.518-9.735-0.518
+             c-17.42,0-33.704,4.943-47.534,13.494C39.356,144.628,37.273,138.237,37.273,131.605z M102.436,257.02
+             c-3.847-0.037-7.781-0.074-11.782-0.074s-7.935,0.038-11.782,0.074c-23.377,0.225-43.565,0.417-52.419-8.352
+             C22.111,244.367,20,237.314,20,227.105c0-38.958,31.695-70.654,70.654-70.654c8.497,0,16.819,1.5,24.735,4.46
+             c3.155,1.179,6.693,0.691,9.411-1.299c2.718-1.991,4.25-5.216,4.078-8.581c-0.028-0.551-0.043-1.106-0.043-1.665
+             c0-17.526,14.258-31.784,31.784-31.784s31.785,14.258,31.785,31.784c0,16.922-13.223,30.864-30.102,31.74
+             c-3.369,0.175-6.423,2.037-8.122,4.951c-1.698,2.915-1.813,6.49-0.304,9.507c4.932,9.864,7.433,20.476,7.433,31.54
+             c0,10.209-2.111,17.262-6.453,21.563C146.001,257.437,125.807,257.242,102.436,257.02z M283.353,246.784
+             c-22.532,9.381-55.243,10.158-89.607,10.158c-6.547,0-13.224-0.037-19.863-0.16c4.978-7.626,7.425-17.407,7.425-29.677
+             c0-9.818-1.536-19.361-4.578-28.503c20.805-6.784,35.673-26.335,35.673-49.235c0-28.554-23.23-51.784-51.785-51.784
+             c-16.956,0-32.03,8.194-41.482,20.828c-1.554-5.894-4.128-11.376-7.514-16.255c22.487-20.193,51.317-31.217,82.123-31.217
+             c67.36,0,122.162,53.93,122.162,120.218C315.907,220.254,305.867,237.41,283.353,246.784z"
+                  />
+                  <circle cx="105.995" cy="202.676" r="13.499" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <nav class="pt-6">
+            <div>
+              <a
+                href="./index.html"
+                class="w-full font-thin flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500 bg-gradient-to-r text-blue-500 from-blue-200 to-white border-l-4 border-blue-500"
+              >
+                <span class="ml-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
+                    />
+                  </svg>
+                </span>
+                <span>داشبورد</span>
+              </a>
+              <a
+                href="./users.html"
+                class="w-full text-gray-500 font-thin flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="ml-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+                    />
+                  </svg>
+                </span>
+                <span>کاربران</span>
+              </a>
+              <a
+                href="./form.html"
+                class="w-full text-gray-500 font-thin flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="ml-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                    />
+                  </svg>
+                </span>
+                <span>فرم ها</span>
+              </a>
+              <a
+                href="./login.html"
+                class="w-full text-gray-500 font-thin flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="ml-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"
+                    />
+                  </svg>
+                </span>
+                <span>ورود</span>
+              </a>
+              <a
+                href="./register.html"
+                class="w-full text-gray-500 font-thin flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="ml-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z"
+                    />
+                  </svg>
+                </span>
+                <span>ثبت نام</span>
+              </a>
+            </div>
+          </nav>
+          <div class="absolute bottom-0 my-10">
+            <a
+              href="#"
+              class="text-gray-500 hover:text-gray-800 translate-color duration-200 flex items-center my-2 mx-8"
+            >
+              <span class="text-blue-500 ml-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+                  />
+                </svg>
+              </span>
+              <span> هوشنگ پنل </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end nav -->
+      <div class="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
+        <!-- header -->
+        <header
+          class="w-full h-16 shadow-lg bg-white items-center rounded-2xl z-40"
+        >
+          <div
+            class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center"
+          >
+            <div
+              class="relative items-center pl-1 flex w-full lg:max-w-68 sm:pr-2 sm:ml-0"
+            >
+              <div class="container relative left-0 z-50 flex w-3/4 h-full">
+                <div class="relative flex items-center lg:w-64 h-full group">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 absolute right-0 z-20 text-gray-500 pointer-events-none fill-current group-hover:text-gray-400 sm:block hidden mr-3"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder="جستجو ..."
+                    class="block w-full py-2 pr-10 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 ring-opacity-90 text-gray-400"
+                  />
+                </div>
+              </div>
+              <div
+                class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto"
+              >
+                <div
+                  class="flex items-center justify-center w-14 h-14 rounded-full border-blue-500 border-2 text-lg overflow-hidden"
+                >
+                  <svg
+                    fill="#000000"
+                    height="800px"
+                    width="800px"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 431.604 431.604"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        d="M389.481,233.423H327.04c5.93-11.57,8.867-25.613,8.867-42.268c0-77.316-63.773-140.218-142.162-140.218
+                 c-36.268,0-70.191,13.172-96.496,37.26c-8.119-5.291-17.798-8.379-28.19-8.379c-28.555,0-51.786,23.231-51.786,51.787
+                 c0,11.137,3.591,21.861,10.079,30.676C10.488,178.752,0,201.725,0,227.105c0,15.821,4.049,27.522,12.379,35.773
+                 c14.779,14.638,38.832,14.409,66.684,14.141c7.569-0.072,54.375-0.244,63.189-1.774c16.319,1.478,34.363,1.697,51.493,1.697
+                 c36.471,0,71.354-0.895,97.295-11.694c7.648-3.184,14.296-7.12,19.966-11.824h78.475c12.198,0,22.123,9.925,22.123,22.124
+                 c0,12.199-9.925,22.124-22.123,22.124H140.494c-22.632,0-41.247,18.411-41.496,41.042c-0.123,11.17,4.136,21.696,11.992,29.639
+                 c7.855,7.942,18.333,12.316,29.504,12.316h146.671c5.522,0,10-4.477,10-10s-4.478-10-10-10H140.494
+                 c-5.787,0-11.215-2.266-15.285-6.38c-4.07-4.115-6.276-9.567-6.212-15.354c0.129-11.724,9.772-21.262,21.497-21.262h248.988
+                 c23.227,0,42.123-18.896,42.123-42.124S412.708,233.423,389.481,233.423z M37.273,131.605c0-17.527,14.259-31.787,31.786-31.787
+                 c17.527,0,31.787,14.259,31.787,31.787c0,1.816-0.159,3.605-0.457,5.364c-3.22-0.345-6.468-0.518-9.735-0.518
+                 c-17.42,0-33.704,4.943-47.534,13.494C39.356,144.628,37.273,138.237,37.273,131.605z M102.436,257.02
+                 c-3.847-0.037-7.781-0.074-11.782-0.074s-7.935,0.038-11.782,0.074c-23.377,0.225-43.565,0.417-52.419-8.352
+                 C22.111,244.367,20,237.314,20,227.105c0-38.958,31.695-70.654,70.654-70.654c8.497,0,16.819,1.5,24.735,4.46
+                 c3.155,1.179,6.693,0.691,9.411-1.299c2.718-1.991,4.25-5.216,4.078-8.581c-0.028-0.551-0.043-1.106-0.043-1.665
+                 c0-17.526,14.258-31.784,31.784-31.784s31.785,14.258,31.785,31.784c0,16.922-13.223,30.864-30.102,31.74
+                 c-3.369,0.175-6.423,2.037-8.122,4.951c-1.698,2.915-1.813,6.49-0.304,9.507c4.932,9.864,7.433,20.476,7.433,31.54
+                 c0,10.209-2.111,17.262-6.453,21.563C146.001,257.437,125.807,257.242,102.436,257.02z M283.353,246.784
+                 c-22.532,9.381-55.243,10.158-89.607,10.158c-6.547,0-13.224-0.037-19.863-0.16c4.978-7.626,7.425-17.407,7.425-29.677
+                 c0-9.818-1.536-19.361-4.578-28.503c20.805-6.784,35.673-26.335,35.673-49.235c0-28.554-23.23-51.784-51.785-51.784
+                 c-16.956,0-32.03,8.194-41.482,20.828c-1.554-5.894-4.128-11.376-7.514-16.255c22.487-20.193,51.317-31.217,82.123-31.217
+                 c67.36,0,122.162,53.93,122.162,120.218C315.907,220.254,305.867,237.41,283.353,246.784z"
+                      />
+                      <circle cx="105.995" cy="202.676" r="13.499" />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- end header -->
+        <!-- main area -->
+        <div
+          class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0"
+        >
+          <section class="text-gray-500 font-body">
+            <div class="container px-5 py-5 mx-auto">
+              <div class="flex flex-wrap m-4 text-center">
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="bg-blue-500 px-4 py-6 rounded-lg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-12 h-12 text-white mb-3 inline-block"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                      />
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">2700</h2>
+                    <p class="leading-relaxed text-white">دانلود</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="bg-green-500 px-4 py-6 rounded-lg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-12 h-12 text-white mb-3 inline-block"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                      />
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">3</h2>
+                    <p class="leading-relaxed text-white">ابرک</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="bg-yellow-500 px-4 py-6 rounded-lg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-12 h-12 text-white mb-3 inline-block"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+                      />
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">340</h2>
+                    <p class="leading-relaxed text-white">کاربران</p>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                  <div class="bg-red-500 px-4 py-6 rounded-lg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-12 h-12 text-white mb-3 inline-block"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      />
+                    </svg>
+                    <h2 class="font-medium text-3xl text-white">5</h2>
+                    <p class="leading-relaxed text-white">ثبت نامی امروز</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block w-8 h-8 text-gray-400 mb-8"
+              viewBox="0 0 975.036 975.036"
+            >
+              <path
+                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+              ></path>
+            </svg>
+            <p class="leading-relaxed text-lg">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. کتابهای زیادی در شصت و سه درصد
+              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با
+              نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+              طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می
+              توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط
+              سخت تایپ به پایان رسد
+            </p>
+            <span
+              class="inline-block h-1 w-10 rounded-lg bg-purple-500 mt-8 mb-6"
+            ></span>
+            <h2 class="text-gray-900 font-medium tracking-wider text-sm">
+              هوشنگ
+            </h2>
+            <p class="text-gray-500">توسعه دهنده</p>
+          </div>
+        </div>
+        <!-- end main area -->
+      </div>
+    </div>
+  </body>
+</html>
